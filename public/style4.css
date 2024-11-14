@@ -1,0 +1,26 @@
+/* The text should be white and background black. */
+body {
+    background-color: black;
+}
+
+/* The text should be center aligned. */
+h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+/* Adjust the margins so that the image and text are centered on the page.  */
+.poster {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
+
+/* Add your own image into the images folder inside assets. It should have a 5px white border. */
+.motivation-img {
+    border: 5px solid white;
+    width: 100%;
+}
